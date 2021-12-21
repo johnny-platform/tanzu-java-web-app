@@ -1,1 +1,1 @@
-tanzu-java-web-app
+Sample org structure for application catalog
