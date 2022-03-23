@@ -1,6 +1,6 @@
 spring:
   application:
-    name: tanzu-java-web-app
+    name: tanzu-java-web-app-v3
 management:
   endpoints:
     web:
