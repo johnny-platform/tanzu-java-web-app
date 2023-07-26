@@ -11,7 +11,9 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+    'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
-  lifecycle: experimental
-  owner: default-b-team
+  lifecycle: production
+  owner: default-team
+  system: tanzu-development

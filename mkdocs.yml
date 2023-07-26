@@ -1,0 +1,7 @@
+site_name: 'Tanzu Java Web App JohnnyPlatform'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
