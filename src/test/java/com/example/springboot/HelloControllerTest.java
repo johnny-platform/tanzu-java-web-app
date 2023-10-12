@@ -21,11 +21,11 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("Greetings! TAP and Spring = Better Together v2", controller.index());
+        assertEquals("Greetings! TAP and Spring = Better Together v3", controller.index());
 
         mockMvc
             .perform(get("/"))
             .andExpect(status().isOk())
-            .andExpect(content().string("Greetings! TAP and Spring = Better Together v2"));
+            .andExpect(content().string("Greetings! TAP and Spring = Better Together v3"));
     }
 }
